@@ -16,7 +16,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             VideoCallsTheme {
                 Surface(color = MaterialTheme.colors.background) {
-
+                    Text(
+                        text = BuildConfig.APP_ID
+                    )
                 }
             }
         }
